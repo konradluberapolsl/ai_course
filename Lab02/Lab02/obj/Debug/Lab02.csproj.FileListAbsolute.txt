@@ -1,0 +1,13 @@
+C:\Users\konra\Desktop\SSI\Lab02\Lab02\bin\Debug\Lab02.exe.config
+C:\Users\konra\Desktop\SSI\Lab02\Lab02\bin\Debug\Lab02.exe
+C:\Users\konra\Desktop\SSI\Lab02\Lab02\bin\Debug\Lab02.pdb
+C:\Users\konra\Desktop\SSI\Lab02\Lab02\obj\Debug\Lab02.csprojAssemblyReference.cache
+C:\Users\konra\Desktop\SSI\Lab02\Lab02\obj\Debug\Lab02.csproj.CoreCompileInputs.cache
+C:\Users\konra\Desktop\SSI\Lab02\Lab02\obj\Debug\Lab02.exe
+C:\Users\konra\Desktop\SSI\Lab02\Lab02\obj\Debug\Lab02.pdb
+C:\Users\konra\Desktop\ai_course\Lab02\Lab02\bin\Debug\Lab02.exe.config
+C:\Users\konra\Desktop\ai_course\Lab02\Lab02\bin\Debug\Lab02.exe
+C:\Users\konra\Desktop\ai_course\Lab02\Lab02\bin\Debug\Lab02.pdb
+C:\Users\konra\Desktop\ai_course\Lab02\Lab02\obj\Debug\Lab02.csprojAssemblyReference.cache
+C:\Users\konra\Desktop\ai_course\Lab02\Lab02\obj\Debug\Lab02.exe
+C:\Users\konra\Desktop\ai_course\Lab02\Lab02\obj\Debug\Lab02.pdb

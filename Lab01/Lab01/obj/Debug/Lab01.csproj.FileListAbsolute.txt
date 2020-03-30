@@ -11,3 +11,9 @@ C:\Users\konra\Desktop\Lab01\Lab01\bin\Debug\Lab01.pdb
 C:\Users\konra\Desktop\Lab01\Lab01\obj\Debug\Lab01.csprojAssemblyReference.cache
 C:\Users\konra\Desktop\Lab01\Lab01\obj\Debug\Lab01.exe
 C:\Users\konra\Desktop\Lab01\Lab01\obj\Debug\Lab01.pdb
+C:\Users\konra\Desktop\ai_course\Lab01\Lab01\bin\Debug\Lab01.exe.config
+C:\Users\konra\Desktop\ai_course\Lab01\Lab01\bin\Debug\Lab01.exe
+C:\Users\konra\Desktop\ai_course\Lab01\Lab01\bin\Debug\Lab01.pdb
+C:\Users\konra\Desktop\ai_course\Lab01\Lab01\obj\Debug\Lab01.csprojAssemblyReference.cache
+C:\Users\konra\Desktop\ai_course\Lab01\Lab01\obj\Debug\Lab01.exe
+C:\Users\konra\Desktop\ai_course\Lab01\Lab01\obj\Debug\Lab01.pdb
