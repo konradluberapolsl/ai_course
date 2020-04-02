@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4BDFEC81-1075-4385-92BD-B74C044C0284}</ProjectGuid>
+    <ProjectGuid>{4B1D84EF-F616-434C-8659-45119EE19AFA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lab_1_2</RootNamespace>
-    <AssemblyName>Lab_1_2</AssemblyName>
+    <RootNamespace>Lab05</RootNamespace>
+    <AssemblyName>Lab05</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -35,7 +35,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,8 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dane.cs" />
-    <Compile Include="Grafika.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
