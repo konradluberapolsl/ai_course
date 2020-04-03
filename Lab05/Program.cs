@@ -16,17 +16,20 @@ namespace Testowy_CS
         {
             Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture("en-US");
             array = init_data(@"iris.txt");
-            k_means(ref array);
+            k_means(ref array,3);
             Console.ReadKey();
         }
-        static void k_means(ref double[,] array)
+
+        static void k_means(ref double[,] array, int k)
         {
             Random rnd = new Random(DateTime.Now.Millisecond);
-            int k = 3;
             double[,] cluster_dimentions = new double[k, array.GetLength(1)];
-            List<int> centroid_1 = new List<int>();
-            List<int> centroid_2 = new List<int>();
-            List<int> centroid_3 = new List<int>(); //indexes of points 0-150 
+            List<List<int>> centroids = new List<List<int>>();
+            for (int i = 0; i < k; i++)
+            {
+                centroids.Add(new List<int>()); //indexes of poits 
+            }
+
             double[] max = find_max(ref array);
             #region Generating clusters
             for (int j = 0; j < cluster_dimentions.GetLength(0); j++)
@@ -39,100 +42,68 @@ namespace Testowy_CS
                 }
                 Console.WriteLine("------------------------");
             }
+            //cluster_dimentions[0, 0] = 5.006;
+            //cluster_dimentions[0, 1] = 3.418;
+            //cluster_dimentions[0, 2] = 1.464;
+            //cluster_dimentions[0, 3] = 0.244;
+            //cluster_dimentions[1, 0] = 5.936;
+            //cluster_dimentions[1, 1] = 2.77; //Średnie wartości z bazy pokrywa sie z tym co na wikipedi czyli że dla tej bazy ten algorytm nie jest idealny!
+            //cluster_dimentions[1, 2] = 4.26;
+            //cluster_dimentions[1, 3] = 1.326;
+            //cluster_dimentions[2, 0] = 6.588;
+            //cluster_dimentions[2, 1] = 2.974;
+            //cluster_dimentions[2, 2] = 5.552;
+            //cluster_dimentions[2, 3] = 2.026;
             #endregion
             int iteration = 0;
-            while (idk(ref centroid_1, ref centroid_2, ref centroid_3, ref cluster_dimentions, ref array))
+            while (distances(ref centroids, ref cluster_dimentions, ref array))
             {
                 Console.WriteLine("Iteration: " + iteration);
                 iteration++;
-                cluster_dimentions[0, 0] = 0;
-                cluster_dimentions[0, 1] = 0;
-                cluster_dimentions[0, 2] = 0;
-                cluster_dimentions[0, 3] = 0;
-                foreach (var item in centroid_1)
-                {
-                    cluster_dimentions[0, 0] += array[item, 0];
-                    cluster_dimentions[0, 1] += array[item, 1];
-                    cluster_dimentions[0, 2] += array[item, 2];
-                    cluster_dimentions[0, 3] += array[item, 3];
-                }
-                cluster_dimentions[0, 0] /= centroid_1.Count;
-                cluster_dimentions[0, 1] /= centroid_1.Count;
-                cluster_dimentions[0, 2] /= centroid_1.Count;
-                cluster_dimentions[0, 3] /= centroid_1.Count;
 
-                cluster_dimentions[1, 0] = 0;
-                cluster_dimentions[1, 1] = 0;
-                cluster_dimentions[1, 2] = 0;
-                cluster_dimentions[1, 3] = 0;
-                foreach (var item in centroid_2)
+                if (cluster_dimentions.GetLength(0)==centroids.Count)
                 {
-                    cluster_dimentions[1, 0] += array[item, 0];
-                    cluster_dimentions[1, 1] += array[item, 1];
-                    cluster_dimentions[1, 2] += array[item, 2];
-                    cluster_dimentions[1, 3] += array[item, 3];
-                }
-                cluster_dimentions[1, 0] /= centroid_2.Count;
-                cluster_dimentions[1, 1] /= centroid_2.Count;
-                cluster_dimentions[1, 2] /= centroid_2.Count;
-                cluster_dimentions[1, 3] /= centroid_2.Count;
+                    for (int i = 0; i < centroids.Count; i++)
+                    {
+                        for (int j = 0; j < cluster_dimentions.GetLength(1); j++)
+                        {
+                            cluster_dimentions[i, j] = 0;
 
-                cluster_dimentions[2, 0] = 0;
-                cluster_dimentions[2, 1] = 0;
-                cluster_dimentions[2, 2] = 0;
-                cluster_dimentions[2, 3] = 0;
-                foreach (var item in centroid_3)
-                {
-                    cluster_dimentions[2, 0] += array[item, 0];
-                    cluster_dimentions[2, 1] += array[item, 1];
-                    cluster_dimentions[2, 2] += array[item, 2];
-                    cluster_dimentions[2, 3] += array[item, 3];
+                            foreach (var item in centroids[i])
+                            {
+                                cluster_dimentions[i, j] += array[item, j];
+
+                            }
+                            cluster_dimentions[i, j] /= centroids[i].Count;
+
+                        }
+
+                    }
                 }
-                cluster_dimentions[2, 0] /= centroid_3.Count;
-                cluster_dimentions[2, 1] /= centroid_3.Count;
-                cluster_dimentions[2, 2] /= centroid_3.Count;
-                cluster_dimentions[2, 3] /= centroid_3.Count;
-                Console.WriteLine("Centroid 1: ");
-                foreach (var item in centroid_1)
+
+                //foreach (var item in centroids)
+                //{
+                //    Console.WriteLine("Centroid " + (centroids.IndexOf(item)+1)+ " :");
+                //    item.Sort();
+                //    foreach (var subitem in item)
+                //    {
+                //        Console.WriteLine(subitem);
+                //    }
+                //    Console.WriteLine("------------------------");
+                //}
+            }
+            foreach (var item in centroids)
+            {
+                Console.WriteLine("Centroid " + (centroids.IndexOf(item) + 1) + " :");
+                item.Sort();
+                foreach (var subitem in item)
                 {
-                    Console.WriteLine(item);
+                    Console.WriteLine(subitem);
                 }
                 Console.WriteLine("------------------------");
-                Console.WriteLine("Centroid 2: ");
-                foreach (var item in centroid_2)
-                {
-                    Console.WriteLine(item);
-                }
-                Console.WriteLine("------------------------");
-                Console.WriteLine("Centroid 3: ");
-                foreach (var item in centroid_3)
-                {
-                    Console.WriteLine(item);
-                }
             }
-
-            centroid_1.Sort();
-            centroid_2.Sort();
-            centroid_3.Sort();
-            Console.WriteLine("Centroid 1: ");
-            foreach (var item in centroid_1)
-            {
-                Console.WriteLine(item);
-            }
-            Console.WriteLine("------------------------");
-            Console.WriteLine("Centroid 2: ");
-            foreach (var item in centroid_2)
-            {
-                Console.WriteLine(item);
-            }
-            Console.WriteLine("------------------------");
-            Console.WriteLine("Centroid 3: ");
-            foreach (var item in centroid_3)
-            {
-                Console.WriteLine(item);
-            }
-
         }
+
         private static double[,] init_data(string path)
         {
             string[] lines = File.ReadAllLines(path);
@@ -167,69 +138,57 @@ namespace Testowy_CS
             return max;
         }
 
-        private static bool idk(ref List<int> centroid_1, ref List<int> centroid_2, ref List<int> centroid_3, ref double[,] cluster_dimentions, ref double[,] array)
+        private static bool distances(ref List<List<int>> centroids, ref double[,] cluster_dimentions, ref double[,] array)
         {
             bool tmp = false;
             for (int i = 0; i < array.GetLength(0); i++)
             {
-                double distance_1 = Math.Sqrt(Math.Pow(array[i, 0] - cluster_dimentions[0, 0], 2) + Math.Pow(array[i, 1] - cluster_dimentions[0, 1], 2) + Math.Pow(array[i, 2] - cluster_dimentions[0, 2], 2) + Math.Pow(array[i, 3] - cluster_dimentions[0, 3], 2));
-                double distance_2 = Math.Sqrt(Math.Pow(array[i, 0] - cluster_dimentions[1, 0], 2) + Math.Pow(array[i, 1] - cluster_dimentions[1, 1], 2) + Math.Pow(array[i, 2] - cluster_dimentions[1, 2], 2) + Math.Pow(array[i, 3] - cluster_dimentions[1, 3], 2));
-                double distance_3 = Math.Sqrt(Math.Pow(array[i, 0] - cluster_dimentions[2, 0], 2) + Math.Pow(array[i, 1] - cluster_dimentions[2, 1], 2) + Math.Pow(array[i, 2] - cluster_dimentions[2, 2], 2) + Math.Pow(array[i, 3] - cluster_dimentions[2, 3], 2));
-                Console.WriteLine(distance_1 + " " + distance_2 + " " + distance_3);
-                double min = distance_1;
-                if (min > distance_2)
+                double min = 0;
+                double[] distance = new double[cluster_dimentions.GetLength(0)];
+                for (int j = 0; j < distance.Length; j++)
                 {
-                    min = distance_2;
-                }
-                if (min > distance_3)
-                {
-                    min = distance_3;
-                }
-                if (distance_1 == min)
-                {
-                    if (!centroid_1.Contains(i))
+                    for (int z = 0; z < cluster_dimentions.GetLength(1); z++)
                     {
-                        tmp = true;
-                        centroid_1.Add(i);
-                        if (centroid_2.Contains(i))
-                            centroid_2.Remove(i);
-                        else if (centroid_3.Contains(i))
-                            centroid_3.Remove(i);
+                        distance[j] += Math.Pow(array[i, z] - cluster_dimentions[j, z], 2);
                     }
+                    distance[j] = Math.Sqrt(distance[j]);
+                    Console.Write(" " + distance[j] + " ");
+                    if (j == 0)
+                        min = distance[j];
                     else
-                        tmp = false;
+                    {
+                        if (min > distance[j])
+                            min = distance[j];
+                    }
+                    if (j == distance.Length - 1)
+                        Console.Write("\n");
+                }
 
-                }
-                else if (distance_2 == min)
+                for (int j = 0; j < distance.Length; j++)
                 {
-                    if (!centroid_2.Contains(i))
+                    if (min == distance[j])
                     {
-                        tmp = true;
-                        centroid_2.Add(i);
-                        if (centroid_1.Contains(i))
-                            centroid_1.Remove(i);
-                        else if (centroid_3.Contains(i))
-                            centroid_3.Remove(i);
-                    }
-                    else
-                        tmp = false;
-                }
-                else if (distance_3 == min)
-                {
-                    if (!centroid_3.Contains(i))
-                    {
-                        tmp = true;
-                        centroid_3.Add(i);
-                        if (centroid_2.Contains(i))
-                            centroid_2.Remove(i);
-                        else if (centroid_1.Contains(i))
-                            centroid_1.Remove(i);
-                    }
-                    else
-                        tmp = false;
-                }
-            }
+                        if (!centroids[j].Contains(i))
+                        {
+                            tmp = true;
+                            centroids[j].Add(i);
+                            for (int z = 0; z < centroids.Count; z++)
+                            {
+                                if (z != j)
+                                {
+                                    if (centroids[z].Contains(i))
+                                        centroids[z].Remove(i);
 
+                                }
+                            }
+
+                        }
+                        else
+                            tmp = false;
+                    }
+                }
+            }   
+          
             return tmp;
         }
     }
