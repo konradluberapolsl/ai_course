@@ -1,0 +1,12 @@
+D:\Dokumenty\STUDIA\Informatyka II rok (2019-2020)\sem4\Systemy sztucznej inteligencji\lab07(Z) - Systemy rozmyte\fuzzySystems\fuzzySystems\obj\Debug\fuzzySystems.csprojAssemblyReference.cache
+D:\Dokumenty\STUDIA\Informatyka II rok (2019-2020)\sem4\Systemy sztucznej inteligencji\lab07(Z) - Systemy rozmyte\fuzzySystems\fuzzySystems\bin\Debug\fuzzySystems.exe.config
+D:\Dokumenty\STUDIA\Informatyka II rok (2019-2020)\sem4\Systemy sztucznej inteligencji\lab07(Z) - Systemy rozmyte\fuzzySystems\fuzzySystems\bin\Debug\fuzzySystems.exe
+D:\Dokumenty\STUDIA\Informatyka II rok (2019-2020)\sem4\Systemy sztucznej inteligencji\lab07(Z) - Systemy rozmyte\fuzzySystems\fuzzySystems\bin\Debug\fuzzySystems.pdb
+D:\Dokumenty\STUDIA\Informatyka II rok (2019-2020)\sem4\Systemy sztucznej inteligencji\lab07(Z) - Systemy rozmyte\fuzzySystems\fuzzySystems\obj\Debug\fuzzySystems.exe
+D:\Dokumenty\STUDIA\Informatyka II rok (2019-2020)\sem4\Systemy sztucznej inteligencji\lab07(Z) - Systemy rozmyte\fuzzySystems\fuzzySystems\obj\Debug\fuzzySystems.pdb
+C:\Users\konra\Desktop\ai_course\Lab06 - fuzzysystems\fuzzySystems\bin\Debug\fuzzySystems.exe.config
+C:\Users\konra\Desktop\ai_course\Lab06 - fuzzysystems\fuzzySystems\bin\Debug\fuzzySystems.exe
+C:\Users\konra\Desktop\ai_course\Lab06 - fuzzysystems\fuzzySystems\bin\Debug\fuzzySystems.pdb
+C:\Users\konra\Desktop\ai_course\Lab06 - fuzzysystems\fuzzySystems\obj\Debug\fuzzySystems.csprojAssemblyReference.cache
+C:\Users\konra\Desktop\ai_course\Lab06 - fuzzysystems\fuzzySystems\obj\Debug\fuzzySystems.exe
+C:\Users\konra\Desktop\ai_course\Lab06 - fuzzysystems\fuzzySystems\obj\Debug\fuzzySystems.pdb

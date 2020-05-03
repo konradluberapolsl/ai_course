@@ -1,0 +1,6 @@
+C:\Users\konra\Desktop\ai_course\Lab07 - neural networks\neuralnet\bin\Debug\neuralnet.exe.config
+C:\Users\konra\Desktop\ai_course\Lab07 - neural networks\neuralnet\bin\Debug\neuralnet.exe
+C:\Users\konra\Desktop\ai_course\Lab07 - neural networks\neuralnet\bin\Debug\neuralnet.pdb
+C:\Users\konra\Desktop\ai_course\Lab07 - neural networks\neuralnet\obj\Debug\neuralnet.csprojAssemblyReference.cache
+C:\Users\konra\Desktop\ai_course\Lab07 - neural networks\neuralnet\obj\Debug\neuralnet.exe
+C:\Users\konra\Desktop\ai_course\Lab07 - neural networks\neuralnet\obj\Debug\neuralnet.pdb

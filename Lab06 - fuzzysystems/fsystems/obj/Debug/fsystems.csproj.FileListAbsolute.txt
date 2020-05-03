@@ -1,0 +1,6 @@
+C:\Users\konra\Desktop\ai_course\Lab06 - fuzzysystems\fsystems\bin\Debug\fsystems.exe.config
+C:\Users\konra\Desktop\ai_course\Lab06 - fuzzysystems\fsystems\bin\Debug\fsystems.exe
+C:\Users\konra\Desktop\ai_course\Lab06 - fuzzysystems\fsystems\bin\Debug\fsystems.pdb
+C:\Users\konra\Desktop\ai_course\Lab06 - fuzzysystems\fsystems\obj\Debug\fsystems.csprojAssemblyReference.cache
+C:\Users\konra\Desktop\ai_course\Lab06 - fuzzysystems\fsystems\obj\Debug\fsystems.exe
+C:\Users\konra\Desktop\ai_course\Lab06 - fuzzysystems\fsystems\obj\Debug\fsystems.pdb

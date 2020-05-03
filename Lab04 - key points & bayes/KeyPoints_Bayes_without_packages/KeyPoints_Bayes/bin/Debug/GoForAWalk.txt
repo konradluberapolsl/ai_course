@@ -1,0 +1,11 @@
+Weather;Temperature;Wind;Decision
+Sunny;Hot;Moderate;Yes
+Rainy;Cool;Strong;No
+Cloudy;Mild;Weak;Yes
+Cloudy;Hot;Moderate;No
+Sunny;Mild;Strong;Yes;
+Sunny;Hot;Weak;Yes;
+Rainy;Hot;Weak;Yes;
+Sunny;Cool;Strong;No
+Cloudy;Mild;Strong;No
+Rainy;Mild;Weak;No

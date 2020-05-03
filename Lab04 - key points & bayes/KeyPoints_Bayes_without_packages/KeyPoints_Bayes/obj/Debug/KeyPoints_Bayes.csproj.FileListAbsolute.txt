@@ -1,0 +1,43 @@
+C:\Users\kajst\source\repos\KeyPoints_Bayes\KeyPoints_Bayes\bin\Debug\KeyPoints_Bayes.exe.config
+C:\Users\kajst\source\repos\KeyPoints_Bayes\KeyPoints_Bayes\bin\Debug\KeyPoints_Bayes.exe
+C:\Users\kajst\source\repos\KeyPoints_Bayes\KeyPoints_Bayes\bin\Debug\KeyPoints_Bayes.pdb
+C:\Users\kajst\source\repos\KeyPoints_Bayes\KeyPoints_Bayes\obj\Debug\KeyPoints_Bayes.csprojAssemblyReference.cache
+C:\Users\kajst\source\repos\KeyPoints_Bayes\KeyPoints_Bayes\obj\Debug\KeyPoints_Bayes.exe
+C:\Users\kajst\source\repos\KeyPoints_Bayes\KeyPoints_Bayes\obj\Debug\KeyPoints_Bayes.pdb
+D:\Dokumenty\STUDIA\Informatyka II rok (2019-2020)\sem4\Systemy sztucznej inteligencji\lab05(Z) - Przetwarzanie grafiki, Bayes\KeyPoints_Bayes\KeyPoints_Bayes\bin\Debug\Accord.dll.config
+D:\Dokumenty\STUDIA\Informatyka II rok (2019-2020)\sem4\Systemy sztucznej inteligencji\lab05(Z) - Przetwarzanie grafiki, Bayes\KeyPoints_Bayes\KeyPoints_Bayes\bin\Debug\KeyPoints_Bayes.exe.config
+D:\Dokumenty\STUDIA\Informatyka II rok (2019-2020)\sem4\Systemy sztucznej inteligencji\lab05(Z) - Przetwarzanie grafiki, Bayes\KeyPoints_Bayes\KeyPoints_Bayes\bin\Debug\KeyPoints_Bayes.exe
+D:\Dokumenty\STUDIA\Informatyka II rok (2019-2020)\sem4\Systemy sztucznej inteligencji\lab05(Z) - Przetwarzanie grafiki, Bayes\KeyPoints_Bayes\KeyPoints_Bayes\bin\Debug\KeyPoints_Bayes.pdb
+D:\Dokumenty\STUDIA\Informatyka II rok (2019-2020)\sem4\Systemy sztucznej inteligencji\lab05(Z) - Przetwarzanie grafiki, Bayes\KeyPoints_Bayes\KeyPoints_Bayes\bin\Debug\Accord.dll
+D:\Dokumenty\STUDIA\Informatyka II rok (2019-2020)\sem4\Systemy sztucznej inteligencji\lab05(Z) - Przetwarzanie grafiki, Bayes\KeyPoints_Bayes\KeyPoints_Bayes\bin\Debug\Accord.MachineLearning.dll
+D:\Dokumenty\STUDIA\Informatyka II rok (2019-2020)\sem4\Systemy sztucznej inteligencji\lab05(Z) - Przetwarzanie grafiki, Bayes\KeyPoints_Bayes\KeyPoints_Bayes\bin\Debug\Accord.Math.Core.dll
+D:\Dokumenty\STUDIA\Informatyka II rok (2019-2020)\sem4\Systemy sztucznej inteligencji\lab05(Z) - Przetwarzanie grafiki, Bayes\KeyPoints_Bayes\KeyPoints_Bayes\bin\Debug\Accord.Math.dll
+D:\Dokumenty\STUDIA\Informatyka II rok (2019-2020)\sem4\Systemy sztucznej inteligencji\lab05(Z) - Przetwarzanie grafiki, Bayes\KeyPoints_Bayes\KeyPoints_Bayes\bin\Debug\Accord.Statistics.dll
+D:\Dokumenty\STUDIA\Informatyka II rok (2019-2020)\sem4\Systemy sztucznej inteligencji\lab05(Z) - Przetwarzanie grafiki, Bayes\KeyPoints_Bayes\KeyPoints_Bayes\bin\Debug\Accord.xml
+D:\Dokumenty\STUDIA\Informatyka II rok (2019-2020)\sem4\Systemy sztucznej inteligencji\lab05(Z) - Przetwarzanie grafiki, Bayes\KeyPoints_Bayes\KeyPoints_Bayes\bin\Debug\Accord.MachineLearning.xml
+D:\Dokumenty\STUDIA\Informatyka II rok (2019-2020)\sem4\Systemy sztucznej inteligencji\lab05(Z) - Przetwarzanie grafiki, Bayes\KeyPoints_Bayes\KeyPoints_Bayes\bin\Debug\Accord.Math.xml
+D:\Dokumenty\STUDIA\Informatyka II rok (2019-2020)\sem4\Systemy sztucznej inteligencji\lab05(Z) - Przetwarzanie grafiki, Bayes\KeyPoints_Bayes\KeyPoints_Bayes\bin\Debug\Accord.Math.Core.xml
+D:\Dokumenty\STUDIA\Informatyka II rok (2019-2020)\sem4\Systemy sztucznej inteligencji\lab05(Z) - Przetwarzanie grafiki, Bayes\KeyPoints_Bayes\KeyPoints_Bayes\bin\Debug\Accord.Statistics.xml
+D:\Dokumenty\STUDIA\Informatyka II rok (2019-2020)\sem4\Systemy sztucznej inteligencji\lab05(Z) - Przetwarzanie grafiki, Bayes\KeyPoints_Bayes\KeyPoints_Bayes\obj\Debug\KeyPoints_Bayes.csprojAssemblyReference.cache
+D:\Dokumenty\STUDIA\Informatyka II rok (2019-2020)\sem4\Systemy sztucznej inteligencji\lab05(Z) - Przetwarzanie grafiki, Bayes\KeyPoints_Bayes\KeyPoints_Bayes\obj\Debug\KeyPoints_Bayes.csproj.CopyComplete
+D:\Dokumenty\STUDIA\Informatyka II rok (2019-2020)\sem4\Systemy sztucznej inteligencji\lab05(Z) - Przetwarzanie grafiki, Bayes\KeyPoints_Bayes\KeyPoints_Bayes\obj\Debug\KeyPoints_Bayes.exe
+D:\Dokumenty\STUDIA\Informatyka II rok (2019-2020)\sem4\Systemy sztucznej inteligencji\lab05(Z) - Przetwarzanie grafiki, Bayes\KeyPoints_Bayes\KeyPoints_Bayes\obj\Debug\KeyPoints_Bayes.pdb
+D:\Dokumenty\STUDIA\Informatyka II rok (2019-2020)\sem4\Systemy sztucznej inteligencji\lab05(Z) - Przetwarzanie grafiki, Bayes\KeyPoints_Bayes\KeyPoints_Bayes\bin\Debug\System.Drawing.Common.dll
+C:\Users\konra\Desktop\ai_course\Lab04 - key points & bayes\KeyPoints_Bayes_without_packages\KeyPoints_Bayes\bin\Debug\KeyPoints_Bayes.exe.config
+C:\Users\konra\Desktop\ai_course\Lab04 - key points & bayes\KeyPoints_Bayes_without_packages\KeyPoints_Bayes\bin\Debug\KeyPoints_Bayes.exe
+C:\Users\konra\Desktop\ai_course\Lab04 - key points & bayes\KeyPoints_Bayes_without_packages\KeyPoints_Bayes\bin\Debug\KeyPoints_Bayes.pdb
+C:\Users\konra\Desktop\ai_course\Lab04 - key points & bayes\KeyPoints_Bayes_without_packages\KeyPoints_Bayes\bin\Debug\Accord.dll
+C:\Users\konra\Desktop\ai_course\Lab04 - key points & bayes\KeyPoints_Bayes_without_packages\KeyPoints_Bayes\bin\Debug\Accord.MachineLearning.dll
+C:\Users\konra\Desktop\ai_course\Lab04 - key points & bayes\KeyPoints_Bayes_without_packages\KeyPoints_Bayes\bin\Debug\Accord.Math.Core.dll
+C:\Users\konra\Desktop\ai_course\Lab04 - key points & bayes\KeyPoints_Bayes_without_packages\KeyPoints_Bayes\bin\Debug\Accord.Math.dll
+C:\Users\konra\Desktop\ai_course\Lab04 - key points & bayes\KeyPoints_Bayes_without_packages\KeyPoints_Bayes\bin\Debug\Accord.Statistics.dll
+C:\Users\konra\Desktop\ai_course\Lab04 - key points & bayes\KeyPoints_Bayes_without_packages\KeyPoints_Bayes\bin\Debug\System.Drawing.Common.dll
+C:\Users\konra\Desktop\ai_course\Lab04 - key points & bayes\KeyPoints_Bayes_without_packages\KeyPoints_Bayes\bin\Debug\Accord.xml
+C:\Users\konra\Desktop\ai_course\Lab04 - key points & bayes\KeyPoints_Bayes_without_packages\KeyPoints_Bayes\bin\Debug\Accord.MachineLearning.xml
+C:\Users\konra\Desktop\ai_course\Lab04 - key points & bayes\KeyPoints_Bayes_without_packages\KeyPoints_Bayes\bin\Debug\Accord.Math.xml
+C:\Users\konra\Desktop\ai_course\Lab04 - key points & bayes\KeyPoints_Bayes_without_packages\KeyPoints_Bayes\bin\Debug\Accord.Math.Core.xml
+C:\Users\konra\Desktop\ai_course\Lab04 - key points & bayes\KeyPoints_Bayes_without_packages\KeyPoints_Bayes\bin\Debug\Accord.Statistics.xml
+C:\Users\konra\Desktop\ai_course\Lab04 - key points & bayes\KeyPoints_Bayes_without_packages\KeyPoints_Bayes\obj\Debug\KeyPoints_Bayes.csprojAssemblyReference.cache
+C:\Users\konra\Desktop\ai_course\Lab04 - key points & bayes\KeyPoints_Bayes_without_packages\KeyPoints_Bayes\obj\Debug\KeyPoints_Bayes.csproj.CopyComplete
+C:\Users\konra\Desktop\ai_course\Lab04 - key points & bayes\KeyPoints_Bayes_without_packages\KeyPoints_Bayes\obj\Debug\KeyPoints_Bayes.exe
+C:\Users\konra\Desktop\ai_course\Lab04 - key points & bayes\KeyPoints_Bayes_without_packages\KeyPoints_Bayes\obj\Debug\KeyPoints_Bayes.pdb
