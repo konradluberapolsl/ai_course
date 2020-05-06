@@ -33,10 +33,11 @@ namespace Test
                         {
                             data[i][0] = 1d;
                         }
+
                     }
                     else
                     {
-                        double.TryParse(tmp[j], out data[i][j]);
+                        double.TryParse(tmp[j], out data[i][j]); // w puste miejsca wstawia 0
                     }
                 }
             }
